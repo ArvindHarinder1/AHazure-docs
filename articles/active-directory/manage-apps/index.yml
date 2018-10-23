@@ -15,6 +15,15 @@ metadata:
   ms.author: barbkess
 abstract:
   description: Learn how to manage and deploy applications with Azure Active Directory.
+  aside:
+    image:
+      alt: 
+      height: 110
+      src: https://docs.microsoft.com/azure/app-service/media/index/create-a-web-app-with-nodejs-and-azure-app-service.png
+      width: 250  
+    title: Manage all your apps with Azure AD (1:47)
+    href: https://youtu.be/BSUuXXcJKCk
+    width: 250
 sections:
 - title: 5-Minute Quickstarts
   items:
