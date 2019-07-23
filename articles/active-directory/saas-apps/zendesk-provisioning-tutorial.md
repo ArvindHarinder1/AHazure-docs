@@ -72,6 +72,8 @@ Before you configure and enable automatic user provisioning, decide which users 
 
 * When you assign a user to Zendesk, select any valid application-specific role, if available, in the assignment dialog box. Users with the **Default Access** role are excluded from provisioning.
 
+* Provisioning custom roles requires the appropriate ZenDesk Plan as described [here](https://developer.zendesk.com/rest_api/docs/support/custom_roles#list-custom-roles).
+
 ## Configure automatic user provisioning to Zendesk 
 
 This section guides you through the steps to configure the Azure AD provisioning service. Use it to create, update, and disable users or groups in Zendesk based on user or group assignments in Azure AD.
