@@ -156,6 +156,7 @@ For more information on how to read the Azure AD provisioning logs, see [Reporti
 ## Connector limitations
 
 * Zoom does not support provisioning for groups.
+* Zoom does not support querying users by username and therefore username cannot be used as the matching attribute. Email should be retained as the matching attribute as per the default configuration. 
 
 ## Additional resources
 
