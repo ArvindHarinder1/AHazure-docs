@@ -13,7 +13,7 @@ ms.date: 08/12/2020
 ms.reviewer: arvinh
 ---
 
-# Known issues: Application provisioning
+# Known issues and limitations: Application provisioning
 Known issues to be aware of when working with app provisioning. You can provide feedback about the application provisioning service on UserVoice, see [Azure AD Application Provision UserVoice](https://aka.ms/appprovisioningfeaturerequest). We closely watch UserVoice so we can improve the service. 
 
 > [!NOTE]
@@ -60,6 +60,9 @@ Attribute-mapping expressions can have a maximum of 10,000 characters.
 - Provisioning passwords isn't supported. 
 - Provisioning nested groups isn't supported. 
 - Provisioning to B2C tenants isn't supported because of the size of the tenants. 
+
+**The provisioning interval is fixed**
+The [time](https://docs.microsoft.com/azure/active-directory/app-provisioning/application-provisioning-when-will-provisioning-finish-specific-user#how-long-will-it-take-to-provision-users) between provisioning cycles is currently not configurable. 
 
 **Changes not moving from target app to Azure AD**
 
